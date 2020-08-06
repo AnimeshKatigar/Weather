@@ -1,0 +1,25 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image:url(all_wthr.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.main{
+  border-radius: 10px;
+  background-color: transparent;
+  backdrop-filter: blur(16px);
+}
+
+.box {
+  text-align: center;
+  position: relative;
+  top: 180px;
+  max-width: 400px;
+  margin:50px auto;
+  align-content: center;
+  /* background: white; */
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
